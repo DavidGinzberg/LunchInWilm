@@ -1,5 +1,10 @@
 { "venues": [
-  {"name": "Urban Cafe"},
+  {
+    "name": "Urban Cafe",
+    "description": "Corporate cafeteria",
+    "cuisine-types": ["sushi", "burgers", "salads"],
+    "website-url": "http://www.urbancafecatering.com/uc_cafemenu.html"
+  },
   {
     "name": "Qdoba",
     "description": "Fast-casual tex-mex food"
@@ -9,19 +14,34 @@
     "website-url": "http://www.terragrillecafe.com/",
     "menu-url": "http://media.wix.com/ugd/c2260b_01979d1dbf7d4877bc2268b16caef526.pdf"
   },
-  {"name": "Jimmy John's"},
+  {
+    "name": "Jimmy John's",
+    "description": "Sandwich shop chain"
+  },
   {
     "name": "Pinji's Cafe",
     "description": "Korean cafe",
     "website-url": "http://www.pinjiscafe.com/",
     "menu-url": "http://www.pinjiscafe.com/menu/"
   },
-  {"name": "Olympic Subs and Steaks"},
-  {"name": "DiMeo's"},
-  {"name": "Zaikka"},
+  {
+    "name": "Olympic Subs and Steaks"},
+  {
+    "name": "DiMeo's"},
+  {
+    "name": "Zaikka"
+  },
+  {
+    "name": "Atami"
+  },
   {
     "name": "Cafe Mezzanotte",
     "website-url": "http://www.cafemezzanotte.net/"
+  },
+  {
+    "name": "Chelsea Tavern",
+    "website-url": "http://www.chelseatavern.com/",
+    "cuisine-types": ["burgers", "sandwiches"]
   }]
 
 }
