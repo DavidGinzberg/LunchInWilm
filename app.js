@@ -1,25 +1,17 @@
 var app = angular.module('lunchInWilm', []);
 app.controller('lunchDataCtrl', function($scope, $http){
 	$scope.suggestion = "Packing lunch";
-	$scope.getSuggestion = function(venues){
-		if (!venues.length){
-			return "the fridge";
-		}
-		return venues[Math.floor(Math.random()*venues.length)].name;
-	};
 
-	// not quite ready; it's printing the anchor tag as plaintext
-	$scope.getSuggestionWithLink = function(venues){
+	$scope.getSuggestion = function(venues){
 		if (!venues.length){
 			return "the fridge";
 		}
 		var venueIndex = Math.floor(Math.random()*venues.length)
 		var venue = venues[venueIndex]
 		var url = venue["website-url"]
-		console.log(url);
 		if (url != undefined) 
-		  return '<a href="' + url + '">' + venue.name + '</a>';
-		return venue.name;
+		  return {"name": venue.name, "url": url};
+		return {"name": venue.name};
 	};
 
 	$scope.setNewSuggestion = function (){
