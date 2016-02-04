@@ -1,11 +1,17 @@
 var app = angular.module('lunchInWilm', []);
 app.controller('lunchDataCtrl', function($scope, $http){
 	$scope.suggestion = "Packing lunch";
+
 	$scope.getSuggestion = function(venues){
 		if (!venues.length){
 			return "the fridge";
 		}
-		return venues[Math.floor(Math.random()*venues.length)].name;
+		var venueIndex = Math.floor(Math.random()*venues.length)
+		var venue = venues[venueIndex]
+		var url = venue["website-url"]
+		if (url != undefined) 
+		  return {"name": venue.name, "url": url};
+		return {"name": venue.name};
 	};
 
 	$scope.setNewSuggestion = function (){

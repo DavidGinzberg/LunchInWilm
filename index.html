@@ -8,7 +8,7 @@
 <body>
 
 <div ng-app="lunchInWilm" ng-controller="lunchDataCtrl"> 
-This site is really new, but if you're looking for lunch, why not try {{suggestion}}.
+This site is really new, but if you're looking for lunch, why not try <a ng-href={{suggestion.url}}>{{suggestion.name}}</a>.
 	<button type="button" ng-click="setNewSuggestion()" >Try again </button >
 </div>
 
