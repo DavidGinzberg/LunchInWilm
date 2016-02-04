@@ -7,7 +7,8 @@
   },
   {
     "name": "Qdoba",
-    "description": "Fast-casual tex-mex food"
+    "description": "Fast-casual tex-mex food",
+    "website-url": "https://www.qdoba.com/"
   },
   {
     "name": "Rodney Grille",
@@ -24,7 +25,8 @@
   },
   {
     "name": "Jimmy John's",
-    "description": "Sandwich shop chain"
+    "description": "Sandwich shop chain",
+    "website-url": "https://www.jimmyjohns.com"
   },
   {
     "name": "Pinji's Cafe",
@@ -37,10 +39,16 @@
   {
     "name": "DiMeo's"},
   {
-    "name": "Zaikka"
+    "name": "Zaikka",
+    "website-url": "http://www.zaikka.com/"
   },
   {
-    "name": "Atami"
+    "name": "Atami",
+    "website-url": "http://www.atamigrillsushiexpress.com/"
+  },
+  {
+    "name": "Kampo Garden",
+    "website-url": "http://www.kampogardenwilmington.com/"
   },
   {
     "name": "Cafe Mezzanotte",
