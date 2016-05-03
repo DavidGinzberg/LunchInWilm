@@ -4,12 +4,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<script src="app.js" ></script>
+	<link rel="stylesheet" href="style.css" ></link>
 </head>
 <body>
-
-<div ng-app="lunchInWilm" ng-controller="lunchDataCtrl"> 
-This site is really new, but if you're looking for lunch, why not try <a ng-href={{suggestion.url}}>{{suggestion.name}}</a>.
-	<button type="button" ng-click="setNewSuggestion()" >Try again </button >
+<div class="outer">
+	<div ng-app="lunchInWilm" ng-controller="lunchDataCtrl" class="inner">
+		This site is really new, but if you're looking for lunch, why not try <a ng-href={{suggestion.url}}>{{suggestion.name}}</a>.
+		<button type="button" ng-click="setNewSuggestion()" >Try again </button >
+	</div>
 </div>
 
 

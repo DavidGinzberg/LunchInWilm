@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+}
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
