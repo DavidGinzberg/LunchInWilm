@@ -9,7 +9,7 @@
 <body>
 <div class="outer">
 	<div ng-app="lunchInWilm" ng-controller="lunchDataCtrl" class="inner">
-		This site is really new, but if you're looking for lunch, why not try <a ng-href={{suggestion.url}}>{{suggestion.name}}</a>.
+		<span id="preamble">Getting lunch in downtown Wilmington? How about</span> <a ng-href={{suggestion.url}}>{{suggestion.name}}</a>?
 		<button type="button" ng-click="setNewSuggestion()" >Try again </button >
 	</div>
 </div>
